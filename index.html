@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karoliny</title>
 <script src="estudo.js"></script>
-</head>
+<link rel="stylesheet" href="Geral.css"
+<head>
+
 <body>
+<div class="calculadora"
 
-    Capital: <input id="valor" type="text">
-    Juros (mensais): <input id="juros" type="text">
-
-    <button onclick="calcula()"> Enviar </button>
-
+    <div id=sptotal>
+        <span id="total"> Total:0,00</span>
+    </div>
+    Capital: <br><input id="valor" type="text"><br>
+    Juros (mensais): <br><input id="juros" type="text"><br>
+    Nr de  Meses: <br><input id="meses" type="text"><br>
+    <br><button onclick="calcula()"> Enviar </button><br>
+    <div id="spListaMeses">
+        <span id="listaMeses"></span>
+    </div>
+</div>
     <br><br><br><br>
     Valor 1: <input id="v1" type="text"><br>
     <button onclick="operacao('+')">Soma</button>
